@@ -16,7 +16,7 @@ int main() {
         ptr = &arr[4];
         for (int i=4;i >= 0;i--) {
             cout << "Value of pointer ptr:" << ptr << '\n';
-            cout << "Value of pinter *ptr: " << *ptr << '\n';
+            cout << "Value of pointer *ptr: " << *ptr << '\n';
             ptr -= 1;
         }
         return 0;       
